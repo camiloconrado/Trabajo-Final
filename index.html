@@ -256,7 +256,7 @@
     </section>
 
     <!-- Tabla de Precios/Comparación -->
-    <section id="precios" class="py-5">
+    <!-- <section id="precios" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
@@ -305,10 +305,235 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <!-- Nueva Tabla de Precios/Comparación -->
+    <section id="precios" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="section-title">Planes de Membresía</h2>
+            <p class="section-subtitle">Elige el plan perfecto para tu estilo de vida</p>
+          </div>
+        </div>
+
+        <!-- Tarjetas de Precios -->
+        <div class="row g-4 mb-5">
+          <div class="col-lg-4">
+            <div class="pricing-card basic-plan">
+              <div class="pricing-header">
+                <h4>Básico</h4>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">0</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="pricing-features">
+                <ul class="features-list">
+                  <li><i class="fas fa-check"></i> Acceso a ofertas básicas</li>
+                  <li><i class="fas fa-check"></i> Newsletter semanal</li>
+                  <li><i class="fas fa-check"></i> Descuento del 5%</li>
+                  <li><i class="fas fa-times"></i> Envío gratuito</li>
+                  <li><i class="fas fa-times"></i> Asesoría personalizada</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <button class="btn pricing-btn basic-btn">Empezar Gratis</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="pricing-card premium-plan featured">
+              <div class="featured-badge">Más Popular</div>
+              <div class="pricing-header">
+                <h4>Premium</h4>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">29.000</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="pricing-features">
+                <ul class="features-list">
+                  <li><i class="fas fa-check"></i> Todo del plan Básico</li>
+                  <li><i class="fas fa-check"></i> Descuento del 15%</li>
+                  <li><i class="fas fa-check"></i> Envío gratuito ilimitado</li>
+                  <li><i class="fas fa-check"></i> Acceso anticipado</li>
+                  <li><i class="fas fa-times"></i> Asesoría personalizada</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <button class="btn pricing-btn premium-btn">Elegir Premium</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="pricing-card vip-plan">
+              <div class="pricing-header">
+                <h4>VIP</h4>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">59.000</span>
+                  <span class="period">/mes</span>
+                </div>
+              </div>
+              <div class="pricing-features">
+                <ul class="features-list">
+                  <li><i class="fas fa-check"></i> Todo del plan Premium</li>
+                  <li><i class="fas fa-check"></i> Descuento del 25%</li>
+                  <li><i class="fas fa-check"></i> Envío express gratuito</li>
+                  <li><i class="fas fa-check"></i> Asesoría personalizada</li>
+                  <li><i class="fas fa-check"></i> Eventos exclusivos</li>
+                </ul>
+              </div>
+              <div class="pricing-footer">
+                <button class="btn pricing-btn vip-btn">Ser VIP</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tabla Comparativa Moderna -->
+        <div class="row mb-5 pb-5">
+          <div class="col-12">
+            <div class="comparison-table-wrapper">
+              <h3 class="comparison-title text-center mb-4">Comparación Detallada</h3>
+              <div class="table-responsive">
+                <table class="table comparison-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Características</th>
+                      <th scope="col" class="basic-column">
+                        <div class="plan-header">
+                          <i class="fas fa-user"></i>
+                          <span>Básico</span>
+                        </div>
+                      </th>
+                      <th scope="col" class="premium-column">
+                        <div class="plan-header">
+                          <i class="fas fa-star"></i>
+                          <span>Premium</span>
+                          <span class="popular-tag">Popular</span>
+                        </div>
+                      </th>
+                      <th scope="col" class="vip-column">
+                        <div class="plan-header">
+                          <i class="fas fa-crown"></i>
+                          <span>VIP</span>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-percentage text-primary me-2"></i>
+                        Descuento en compras
+                      </td>
+                      <td class="basic-column">5%</td>
+                      <td class="premium-column">15%</td>
+                      <td class="vip-column">25%</td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-shipping-fast text-success me-2"></i>
+                        Tipo de envío
+                      </td>
+                      <td class="basic-column">Estándar <small>($15.000)</small></td>
+                      <td class="premium-column">
+                        <span class="feature-highlight">Gratuito</span>
+                      </td>
+                      <td class="vip-column">
+                        <span class="feature-highlight">Express Gratuito</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-clock text-warning me-2"></i>
+                        Tiempo de entrega
+                      </td>
+                      <td class="basic-column">3-5 días</td>
+                      <td class="premium-column">1-2 días</td>
+                      <td class="vip-column">24 horas</td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-user-tie text-info me-2"></i>
+                        Asesoría personalizada
+                      </td>
+                      <td class="basic-column">
+                        <i class="fas fa-times text-danger"></i>
+                      </td>
+                      <td class="premium-column">
+                        <i class="fas fa-times text-danger"></i>
+                      </td>
+                      <td class="vip-column">
+                        <i class="fas fa-check text-success"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-calendar-alt text-secondary me-2"></i>
+                        Acceso anticipado
+                      </td>
+                      <td class="basic-column">
+                        <i class="fas fa-times text-danger"></i>
+                      </td>
+                      <td class="premium-column">
+                        <i class="fas fa-check text-success"></i>
+                      </td>
+                      <td class="vip-column">
+                        <i class="fas fa-check text-success"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-gift text-danger me-2"></i>
+                        Compra mínima
+                      </td>
+                      <td class="basic-column">$50.000</td>
+                      <td class="premium-column">$100.000</td>
+                      <td class="vip-column">Sin mínimo</td>
+                    </tr>
+                    <tr>
+                      <td class="feature-name">
+                        <i class="fas fa-phone text-primary me-2"></i>
+                        Soporte
+                      </td>
+                      <td class="basic-column">Email</td>
+                      <td class="premium-column">Email + Chat</td>
+                      <td class="vip-column">24/7 Prioritario</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <div class="cta-section">
+              <h4>¿Necesitas ayuda para elegir?</h4>
+              <p>Nuestro equipo está aquí para ayudarte a encontrar el plan perfecto</p>
+              <a href="#contacto" class="btn btn-outline-light btn-lg me-3">
+                <i class="fas fa-comments me-2"></i>Hablar con un Asesor
+              </a>
+              <a href="#catalogo" class="btn btn-light btn-lg">
+                <i class="fas fa-shopping-bag me-2"></i>Ver Catálogo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Sección con Lista -->
-    <section class="py-5 bg-dark">
+        <!-- Sección con Lista -->
+        <section class="py-5 bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -339,60 +564,61 @@
       </div>
     </section>
 
-    <!-- Formulario de Contacto -->
-    <section id="contacto" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center mb-5">
-            <h2 class="section-title">Contáctanos</h2>
-            <p class="section-subtitle">¿Tienes alguna pregunta? Nos encantaría escucharte</p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre completo</label>
-                    <input type="text" class="form-control" id="nombre" required>
+        <!-- Formulario de Contacto -->
+        <section id="contacto" class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center mb-5">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-subtitle">¿Tienes alguna pregunta? Nos encantaría escucharte</p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <form class="contact-form">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" required
+                          placeholder="hola@conradostyle.com">
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-6">
                   <div class="mb-3">
-                    <label for="email" class="form-label">Correo electrónico</label>
-                    <input type="email" class="form-control" id="email" required placeholder="hola@conradostyle.com">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono">
                   </div>
-                </div>
+                  <div class="mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <select class="form-select" id="asunto">
+                      <option value="">Selecciona un asunto</option>
+                      <option value="consulta">Consulta general</option>
+                      <option value="cambio">Cambio o devolución</option>
+                      <option value="envio">Información de envío</option>
+                      <option value="otro">Otro</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-dark btn-lg">
+                      <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
+                    </button>
+                  </div>
+                </form>
               </div>
-              <div class="mb-3">
-                <label for="telefono" class="form-label">Teléfono</label>
-                <input type="tel" class="form-control" id="telefono">
-              </div>
-              <div class="mb-3">
-                <label for="asunto" class="form-label">Asunto</label>
-                <select class="form-select" id="asunto">
-                  <option value="">Selecciona un asunto</option>
-                  <option value="consulta">Consulta general</option>
-                  <option value="cambio">Cambio o devolución</option>
-                  <option value="envio">Información de envío</option>
-                  <option value="otro">Otro</option>
-                </select>
-              </div>
-              <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
-              </div>
-              <div class="text-center">
-                <button type="submit" class="btn btn-dark btn-lg">
-                  <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
-                </button>
-              </div>
-            </form>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
   </main>
 
   <!-- Footer -->
